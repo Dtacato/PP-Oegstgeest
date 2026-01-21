@@ -1,8 +1,16 @@
 {
   "brand": {
-    "accessible-purple": {
+    "geel": {
       "$type": "color",
-      "$value": "#8527C0"
+      "$value": "#fbbf00"
+    },
+    "rood": {
+      "$type": "color",
+      "$value": "#ef002b"
+    },
+    "groen": {
+      "$type": "color",
+      "$value": "#046a38"
     }
   },
   "common": {
@@ -11,11 +19,11 @@
         "font-family": {
           "default": {
             "$type": "fontFamilies",
-            "$value": "IBM Plex Sans, sans-serif"
+            "$value": "Lato"
           },
           "monospace": {
             "$type": "fontFamilies",
-            "$value": "IBM Plex Mono, monospace"
+            "$value": "Lato"
           }
         },
         "font-weight": {
@@ -2392,7 +2400,7 @@
       "form-control": {
         "accent-color": {
           "$type": "color",
-          "$value": "{basis.color.action-1.color-default}"
+          "$value": "{geel}"
         },
         "background-color": {
           "$type": "color",
@@ -2637,7 +2645,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{accessible-purple}"
+            "$value": "{geel}"
           },
           "gap": {
             "$type": "dimension",
@@ -3184,7 +3192,7 @@
         "link": {
           "color": {
             "$type": "color",
-            "$value": "{accessible-purple}"
+            "$value": "{groen}"
           },
           "text-decoration": {
             "$type": "textDecoration",
@@ -3310,7 +3318,7 @@
         "link": {
           "color": {
             "$type": "color",
-            "$value": "{accessible-purple}"
+            "$value": "{geel}"
           },
           "column-gap": {
             "$type": "dimension",
@@ -3506,7 +3514,7 @@
         "primary-action": {
           "background-color": {
             "$type": "color",
-            "$value": "{accessible-purple}"
+            "$value": "{geel}"
           },
           "border-color": {
             "$type": "color",
@@ -3514,7 +3522,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{basis.color.action-1-inverse.color-default}"
+            "$value": "{basis.color.default.color-document}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -4948,7 +4956,7 @@
         "link": {
           "color": {
             "$type": "color",
-            "$value": "{accessible-purple}"
+            "$value": "{geel}"
           },
           "gap": {
             "$type": "dimension",
@@ -5863,7 +5871,7 @@
       "link": {
         "color": {
           "$type": "color",
-          "$value": "{accessible-purple}",
+          "$value": "{geel}",
           "$description": "[code-only]"
         },
         "text-decoration-color": {
@@ -5935,7 +5943,7 @@
       "link": {
         "color": {
           "$type": "color",
-          "$value": "{accessible-purple}"
+          "$value": "{geel}"
         },
         "column-gap": {
           "$type": "dimension",
@@ -6729,7 +6737,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{accessible-purple}"
+            "$value": "{geel}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -6803,7 +6811,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{accessible-purple}"
+            "$value": "{geel}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -7063,7 +7071,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{accessible-purple}"
+            "$value": "{geel}"
           },
           "font-weight": {
             "$type": "fontWeights",
